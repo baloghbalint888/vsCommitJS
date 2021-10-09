@@ -1,0 +1,21 @@
+p{
+    background-color: beige;
+    font-weight: bold;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+
+}
+tr{
+    border: 1px solid black;
+}
+
+.paros{
+    background-color:lightblue;
+}
+.paratlan{
+    background-color: tomato;
+}
