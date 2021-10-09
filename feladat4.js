@@ -11,6 +11,7 @@ function fuggveny(){
 }
 
 function kiir(){
+        tomb.sort(hasonlit);
         var tabla = document.createElement("tabla");
         for(let i=0;i<tomb.length;i++){
         var sor=document.createElement("tr");
@@ -24,4 +25,8 @@ function kiir(){
     }
     ki.innerHTML="";
     ki.appendChild(tabla);
+
+    function hasonlit(a,b){
+        return a[1]-b[1];
+    }
 }

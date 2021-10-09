@@ -11,12 +11,12 @@ function fuggveny(){
 
 function kiir(){
     var tabla = document.createElement("tabla");
-    for(i=0;i<tomb.length;i++){
+    for( let i=0;i<tomb.length;i++){
     var sor=document.createElement("tr");
     var cella=document.createElement("td");
     cella.innerHTML=tomb[i];
 
-    cella.onclick=function(i){
+    sor.onclick=function(i){
         tomb.splice(i,1)
         kiir();
     };
